@@ -1,6 +1,6 @@
 <template>
   <div id="content">
-    <Post title="週報（2020/02/28）" createdDate="2020/02/28" :body="body"></Post>
+    <Post title="週報（2020/02/28）" createdDate="2020/02/28" :body="body_20200229"></Post>
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   },
   data() {
     return {
-      body: body_20200229
+      body_20200229: body_20200229
     }
   }
 }
@@ -26,5 +26,6 @@ export default {
   padding: 12px;
   width: 100%;
   max-width: 1200px;
+  margin: 0 auto;
 }
 </style>

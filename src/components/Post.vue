@@ -19,6 +19,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#post {
+  margin-bottom: 4.0em;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
 .date-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -38,5 +44,16 @@ export default {
   padding-left: 10px;
   width: 100%;
 }
-
+</style>
+<style lang="scss">
+.post-body {
+  h1 {
+    display: block;
+    font-size: 1.4em;
+    margin-top: 2.0em;
+    &:first-of-type {
+      margin-top: 1.0em;
+    }
+  }
+}
 </style>

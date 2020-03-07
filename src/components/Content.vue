@@ -15,10 +15,12 @@
 import Post from './Post.vue'
 import post_20200229 from '../post_contents/20200229.js'
 import post_20200301 from '../post_contents/20200301.js'
+import post_20200308 from '../post_contents/20200308.js'
 import post_202003xx from '../post_contents/202003xx.js'
 
 const body_20200229 = post_20200229.html()
 const body_20200301 = post_20200301.html()
+const body_20200308 = post_20200308.html()
 const body_202003xx = post_202003xx.html()
 export default {
   components: {
@@ -28,6 +30,7 @@ export default {
     return {
       body_20200229: body_20200229,
       body_20200301: body_20200301,
+      body_20200308: body_20200308,
       body_202003xx: body_202003xx
     }
   }

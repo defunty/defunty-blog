@@ -2,13 +2,14 @@
   <div id="app">
     <Header></Header>
     <Content></Content>
+    <!-- <Footer></Footer> -->
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Content from './components/Content.vue'
-//console.log('sss')
+//import Footer from './components/Footer.vue'
 
 //vueファイルでない場合はnameを与える
 export default {

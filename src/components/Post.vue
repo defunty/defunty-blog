@@ -45,6 +45,8 @@ export default {
   width: 100%;
 }
 </style>
+
+<!-- v-htmlでscopeするためにglobal scopedとする-->
 <style lang="scss">
 .post-body {
   h1 {
@@ -54,6 +56,13 @@ export default {
     &:first-of-type {
       margin-top: 1.0em;
     }
+  }
+  pre {
+    border-top: solid 1.5px $color-iceberg-green;
+    border-bottom: solid 1.5px $color-iceberg-green;
+    color: #fff;
+    background-color: #000;
+    padding: 12px;
   }
 }
 </style>

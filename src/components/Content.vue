@@ -1,5 +1,6 @@
 <template>
   <div id="content">
+    <Post title="topコマンドを理解する" createdDate="2020/03/09" :body="body_20200309"></Post>
     <Post title="週報（2020/03/08）" createdDate="2020/03/08" :body="body_20200308"></Post>
     <Post title="週報（2020/02/28）" createdDate="2020/02/28" :body="body_20200229"></Post>
     <!-- <Post title="ブログ工事計画書" createdDate="2020/03/07" :body="body_202003xx"></Post> -->
@@ -15,9 +16,11 @@
 import Post from './Post.vue'
 import post_20200229 from '../post_contents/20200229.js'
 import post_20200308 from '../post_contents/20200308.js'
+import post_20200309 from '../post_contents/20200309.js'
 
 const body_20200229 = post_20200229.html()
 const body_20200308 = post_20200308.html()
+const body_20200309 = post_20200309.html()
 
 export default {
   components: {
@@ -26,7 +29,8 @@ export default {
   data() {
     return {
       body_20200229: body_20200229,
-      body_20200308: body_20200308
+      body_20200308: body_20200308,
+      body_20200309: body_20200309
     }
   }
 }

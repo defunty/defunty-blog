@@ -13,3 +13,4 @@ Vue.use(VueAnalytics, {
   id: 'UA-108454395-5'
 })
 
+this.$ga.page('/')

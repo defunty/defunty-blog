@@ -1,9 +1,9 @@
 <template>
   <div id="content">
-    <Post title="週報（2020/03/16）" createdDate="2020/03/16" :body="body_20200316"></Post>
+    <Post title="週報 1週目（2020/03/16）" createdDate="2020/03/16" :body="body_20200316"></Post>
     <Post title="topコマンドを理解する" createdDate="2020/03/09" :body="body_20200309"></Post>
-    <Post title="週報（2020/03/08）" createdDate="2020/03/08" :body="body_20200308"></Post>
-    <Post title="週報（2020/02/28）" createdDate="2020/02/28" :body="body_20200229"></Post>
+    <Post title="週報 2週目（2020/03/08）" createdDate="2020/03/08" :body="body_20200308"></Post>
+    <Post title="週報 3週目（2020/02/28）" createdDate="2020/02/28" :body="body_20200229"></Post>
     <!-- <Post title="ブログ工事計画書" createdDate="2020/03/07" :body="body_202003xx"></Post> -->
   </div>
 </template>

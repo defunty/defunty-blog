@@ -17,8 +17,12 @@ export default {
     Header,
     Content
   },
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
+  }
 }
-
 </script>
 
 <style lang="scss">

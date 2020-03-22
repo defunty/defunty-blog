@@ -10,5 +10,6 @@ new Vue({
 
 // Google Analytics
 Vue.use(VueAnalytics, {
-  id: 'UA-108454395-5'
+  id: 'UA-108454395-5',
+  router
 })

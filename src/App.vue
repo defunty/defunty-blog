@@ -16,11 +16,13 @@ export default {
   components: {
     Header
   },
+  /*
   methods: {
     track () {
       this.$ga.page('/')
     }
   }
+  */
 }
 </script>
 

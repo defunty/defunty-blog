@@ -1,21 +1,20 @@
 <template>
   <div id="app">
     <Header></Header>
-    <Content></Content>
+    <router-view></router-view>
     <!-- <Footer></Footer> -->
+    <!--<RouterLink to="/documents">My Documents</RouterLink>-->
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import Content from './components/Content.vue'
 //import Footer from './components/Footer.vue'
 
 //vueファイルでない場合はnameを与える
 export default {
   components: {
-    Header,
-    Content
+    Header
   },
   methods: {
     track () {
@@ -23,9 +22,6 @@ export default {
     }
   }
 }
-
-
-
 </script>
 
 <style lang="scss">

@@ -20,7 +20,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
     "vue-router": "^3.1.6",
